@@ -1,0 +1,9 @@
+.idle/
+.gradle/
+
+build/
+bin/
+out/
+
+*.env
+*.iml
