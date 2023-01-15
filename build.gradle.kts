@@ -59,8 +59,4 @@ publishing {
             }
         }
     }
-
-    publications {
-        create<MavenPublication>("Kyuso")
-    }
 }
