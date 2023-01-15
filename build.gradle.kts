@@ -7,16 +7,16 @@ buildscript {
     }
 
     dependencies {
-        classpath("fun.dimensional.gradle:gradle-tools:1.0.3")
+        classpath("fun.dimensional.gradle:gradle-tools:1.1.2")
     }
 }
 
 plugins {
     `maven-publish`
-    kotlin("multiplatform") version "1.6.21"
+    kotlin("multiplatform") version "1.8.0"
 }
 
-val moduleVersion = Version(1, 0, 0, release = ReleaseType.Final)
+val moduleVersion = Version(1, 0, 1, release = ReleaseType.Final)
 
 project.group = "mixtape.oss"
 project.version = moduleVersion.asString()
@@ -32,7 +32,7 @@ kotlin {
 
     sourceSets["commonMain"].dependencies {
         implementation(kotlin("stdlib"))
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     }
 
     sourceSets["jvmMain"].dependencies {
