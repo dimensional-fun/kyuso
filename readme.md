@@ -12,7 +12,7 @@ repositories {
 }
 
 depenencies {
-    implementation("mixtape.oss:kyuso:$VERSION")
+    implementation("fun.dimensional:kyuso:$VERSION")
 }
 ```
 
@@ -28,7 +28,7 @@ depenencies {
 
 ```xml
 <dependency>
-    <groupId>mixtape.oss</groupId>
+    <groupId>fun.dimensional</groupId>
     <artifactId>kyuso</artifactId>
     <version>%VERSION%</version>
 </dependency>

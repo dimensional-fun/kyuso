@@ -18,7 +18,7 @@ plugins {
 
 val moduleVersion = Version(1, 0, 1, release = ReleaseType.Final)
 
-project.group = "mixtape.oss"
+project.group = "fun.dimensional"
 project.version = moduleVersion.asString()
 
 repositories {
