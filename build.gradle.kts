@@ -16,7 +16,7 @@ plugins {
     kotlin("multiplatform") version "1.8.0"
 }
 
-val moduleVersion = Version(1, 0, 1, release = ReleaseType.Final)
+val moduleVersion = Version(1, 0, 0, release = ReleaseType.Final)
 
 project.group = "fun.dimensional"
 project.version = moduleVersion.asString()
