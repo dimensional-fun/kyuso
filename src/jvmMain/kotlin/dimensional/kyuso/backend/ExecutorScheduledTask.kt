@@ -1,9 +1,9 @@
-package mixtape.oss.kyuso.backend
+package dimensional.kyuso.backend
 
+import dimensional.kyuso.task.ScheduledTask
+import dimensional.kyuso.tools.Runnable
+import dimensional.kyuso.tools.ext.synchronous
 import kotlinx.coroutines.CancellationException
-import mixtape.oss.kyuso.task.ScheduledTask
-import mixtape.oss.kyuso.tools.Runnable
-import mixtape.oss.kyuso.tools.ext.synchronous
 import java.util.concurrent.ScheduledExecutorService
 import java.util.concurrent.ScheduledFuture
 import java.util.concurrent.TimeUnit

@@ -1,6 +1,6 @@
+import dimensional.kyuso.Kyuso
+import dimensional.kyuso.tools.calculatingDelay
 import kotlinx.coroutines.*
-import mixtape.oss.kyuso.Kyuso
-import mixtape.oss.kyuso.tools.calculatingDelay
 import java.util.concurrent.Executors
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.ExperimentalTime

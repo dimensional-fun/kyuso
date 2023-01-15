@@ -1,4 +1,4 @@
-package mixtape.oss.kyuso.task
+package dimensional.kyuso.task
 
 import kotlin.time.Duration
 

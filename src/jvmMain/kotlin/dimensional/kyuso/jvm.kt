@@ -1,6 +1,6 @@
-package mixtape.oss.kyuso
+package dimensional.kyuso
 
-import mixtape.oss.kyuso.backend.ExecutorBackend
+import dimensional.kyuso.backend.ExecutorBackend
 import java.util.concurrent.ExecutorService
 
 /**

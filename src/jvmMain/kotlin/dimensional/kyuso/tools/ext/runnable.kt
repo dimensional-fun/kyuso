@@ -1,7 +1,7 @@
-package mixtape.oss.kyuso.tools.ext
+package dimensional.kyuso.tools.ext
 
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.runBlocking
-import mixtape.oss.kyuso.tools.Runnable
 
 public val Runnable<*>.synchronous: java.lang.Runnable
     get() = java.lang.Runnable {

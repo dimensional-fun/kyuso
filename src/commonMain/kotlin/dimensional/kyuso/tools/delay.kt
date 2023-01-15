@@ -1,4 +1,4 @@
-package mixtape.oss.kyuso.tools
+package dimensional.kyuso.tools
 
 import kotlin.math.max
 import kotlin.time.Duration

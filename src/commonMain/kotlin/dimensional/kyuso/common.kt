@@ -1,9 +1,9 @@
-package mixtape.oss.kyuso
+package dimensional.kyuso
 
+import dimensional.kyuso.backend.CoroutineBackend
+import dimensional.kyuso.task.Task
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.*
-import mixtape.oss.kyuso.backend.CoroutineBackend
-import mixtape.oss.kyuso.task.Task
-import mixtape.oss.kyuso.tools.Runnable
 
 /**
  * Creates a new coroutine-based [Kyuso] using the specified [dispatcher].

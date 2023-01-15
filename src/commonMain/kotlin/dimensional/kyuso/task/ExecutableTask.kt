@@ -1,4 +1,4 @@
-package mixtape.oss.kyuso.task
+package dimensional.kyuso.task
 
 public interface ExecutableTask : Task {
     /**

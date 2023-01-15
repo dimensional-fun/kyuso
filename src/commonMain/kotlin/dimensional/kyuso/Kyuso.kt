@@ -1,12 +1,12 @@
-package mixtape.oss.kyuso
+package dimensional.kyuso
 
+import dimensional.kyuso.backend.KyusoBackend
+import dimensional.kyuso.task.Task
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
-import mixtape.oss.kyuso.backend.KyusoBackend
-import mixtape.oss.kyuso.task.Task
-import mixtape.oss.kyuso.tools.Runnable
 import kotlin.time.Duration
 
 /**

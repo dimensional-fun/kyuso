@@ -1,14 +1,14 @@
-package mixtape.oss.kyuso.backend
+package dimensional.kyuso.backend
 
+import dimensional.kyuso.task.ExecutableTask
+import dimensional.kyuso.task.ScheduledTask
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
-import mixtape.oss.kyuso.task.ExecutableTask
-import mixtape.oss.kyuso.task.ScheduledTask
-import mixtape.oss.kyuso.tools.Runnable
 
 /**
- * The backend of a [mixtape.oss.kyuso.Kyuso] instance, used to create executable and scheduled tasks.
+ * The backend of a [dimensional.kyuso.Kyuso] instance, used to create executable and scheduled tasks.
  */
 public interface KyusoBackend {
     /**

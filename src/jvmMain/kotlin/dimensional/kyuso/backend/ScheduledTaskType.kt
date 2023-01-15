@@ -1,4 +1,4 @@
-package mixtape.oss.kyuso.backend
+package dimensional.kyuso.backend
 
 /**
  * Represents the types of scheduled tasks.

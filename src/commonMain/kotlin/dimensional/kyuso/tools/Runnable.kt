@@ -1,4 +1,4 @@
-package mixtape.oss.kyuso.tools
+package dimensional.kyuso.tools
 
 /**
  * A that can be used with suspending functions.

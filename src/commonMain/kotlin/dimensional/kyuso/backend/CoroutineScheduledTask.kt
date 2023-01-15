@@ -1,8 +1,8 @@
-package mixtape.oss.kyuso.backend
+package dimensional.kyuso.backend
 
+import dimensional.kyuso.task.ScheduledTask
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.*
-import mixtape.oss.kyuso.task.ScheduledTask
-import mixtape.oss.kyuso.tools.Runnable
 import kotlin.time.Duration
 
 public class CoroutineScheduledTask(

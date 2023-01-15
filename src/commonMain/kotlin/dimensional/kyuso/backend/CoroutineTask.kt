@@ -1,11 +1,11 @@
-package mixtape.oss.kyuso.backend
+package dimensional.kyuso.backend
 
+import dimensional.kyuso.task.ExecutableTask
+import dimensional.kyuso.tools.Runnable
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import mixtape.oss.kyuso.task.ExecutableTask
-import mixtape.oss.kyuso.tools.Runnable
 
 public class CoroutineTask(public val scope: CoroutineScope, public val runnable: Runnable<*>) : ExecutableTask {
     private lateinit var job: Job
